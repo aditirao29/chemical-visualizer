@@ -63,7 +63,6 @@ The system allows users to upload CSV files containing chemical equipment data, 
 │ ├── api/
 │ ├── backend/
 │ ├── manage.py
-│ └── requirements.txt
 │
 ├── chemical-visualizer-web/
 │ ├── public/
@@ -75,9 +74,6 @@ The system allows users to upload CSV files containing chemical equipment data, 
 │ ├── main.py
 │ ├── api_client.py
 │ └── charts.py
-│
-├── .gitignore
-└── README.md
 ```
 
 ---
@@ -105,6 +101,10 @@ set API_TOKEN=your_token_here
 ```
 
 ### How to run the project:
+```
+git clone https://github.com/aditirao29/chemical-visualizer
+cd chemical-visualizer
+```
 1. Backend (Django)
 ```
 cd backend
@@ -137,7 +137,12 @@ Pump-1,Pump,120,5.2,110
 Valve-1,Valve,60,4.1,105
 ```
 
----
+### Screenshots
+<p align="center">
+  <img src="screenshots/first.png" width="340" />
+  <img src="screenshots/second.png" width="330" />
+  <img src="screenshots/third.png" width="330" />
+</p>
 
 ### Conclusion
 This project highlights the design of a scalable, secure data-driven system supporting both web and desktop clients from a single backend.
